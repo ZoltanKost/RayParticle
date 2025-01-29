@@ -1,4 +1,4 @@
-#include <..\include\raylib.h>
+#include <raylib.h>
 typedef struct Particle
 {
 	Vector2 pos;
@@ -13,7 +13,7 @@ void SpawnParticle(Particle* array, int Count,
 		Vector2 mousePos);
 int main(){
 	SetConfigFlags(FLAG_WINDOW_RESIZABLE & FLAG_WINDOW_ALWAYS_RUN & FLAG_BORDERLESS_WINDOWED_MODE);
-	InitWindow(800,600,"My first raylib window! TY Rayson5!");
+	InitWindow(800,600,"My first raylib window! TY Raysan5!");
 	int unitsInWidth = 800 / 16;
 	int unitsInHeight = 600 / 9;
 	SetTargetFPS(60);
